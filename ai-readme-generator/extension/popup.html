@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI README Generator</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>AI README Generator</h1>
+    <p class="subtitle">Generate documentation for your GitHub project.</p>
+
+    <section class="repository">
+      <span class="label">Current repository</span>
+      <p id="repoName">Open a GitHub repository first.</p>
+      <a id="repoLink" href="#" target="_blank" hidden>View repository</a>
+    </section>
+
+    <button id="inspectButton">Inspect Repository</button>
+    <p id="status" role="status">Ready to get started.</p>
+  </main>
+</body>
+</html>
